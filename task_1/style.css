@@ -1,0 +1,53 @@
+body {
+  padding-top: 5%;
+  padding-left: 25%;
+}
+.first_rol {
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  position: relative;
+}
+.first_rol .second_rol {
+  position: fixed;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background-color: #ffa500;
+  margin: 50px;
+}
+
+.second_rol .third_rol {
+  position: fixed;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: #ffff00;
+  margin: 50px;
+}
+.third_rol .fourth_rol {
+  position: fixed;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #008000;
+  margin: 50px;
+}
+.fourth_rol .fifth_rol {
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #0000ff;
+  margin: 50px;
+}
+
+.fifth_rol .sixth_rol {
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #800080;
+  margin: 50px;
+}
